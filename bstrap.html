@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Task Tracker</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <!-- local CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container-fluid">
+     <div class="row">
+	    <img src="" class="img-responsive">
+     </div>
+    </div>
+    <div class="container">
+      <h1 class="page-header">Yousif is Zummal <small><em>but he's so cool..</em></small></h1>
+
+      <div class="jumbotron">
+        <h3>Add a new task!</h3>
+
+
+        <form id="taskInputForm">
+          <div class="form-group">
+            <label for="taskDescInput">Description:</label>
+            <input type="text" class="form-control" id="taskDescInput" placeholder="Enter a new task here..">
+          </div>
+          <div class="form-group">
+            <label for="taskPriorityInput">Priority:</label>
+            <select class="form-control" name="" id="taskPriorityInput">
+              <option value="Low">Low</option>
+              <option value="Medium">Medium</option>
+              <option value="High">High</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="taskAssToInput">Assigned to:</label>
+            <input type="text" class="form-control" id="taskAssiToInput" placeholder="Who is responsible for this task..">
+          </div>
+          <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" id="tasksList">Tasks list will displied here..
+        </div>
+      </div>
+    </div><!--Main Container-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--ChanceJS lib-->
+    <script src="http://chancejs.com/chance.min.js" ></script>
+    <!--ChanceJS lib-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!--local JS file-->
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+  </body>
+</html>
